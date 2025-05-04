@@ -1,0 +1,110 @@
+@font-face {
+    font-family: "Roboto";
+    src: url(font/RobotoMono-VariableFont_wght.ttf);
+}
+
+*{
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+}
+
+body{
+    background-image: url(font/Untitled-design-2023-10-10T165957.095.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container{
+    background-color: rgba(255, 255, 255, 0.78);
+    border-radius: .6rem;
+}
+
+.choose-quantity{
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    border-radius: .6rem;
+    background-color: #3f3f3f;
+}
+
+
+.form-control{
+    transition: .5s ease;
+    border-radius: 10px;
+    border: 2px solid #90A4AE;
+}
+
+.btn{
+    width:75%;
+    transition: .5s ease;
+    border-width: 2px;
+    font-weight: 600;
+}
+
+.result{
+    font-weight: 700;
+    font-size: 1.2rem;
+    visibility: hidden;
+}
+
+.result-from{
+    background-color: #FFD54F;
+    padding: .5rem;
+    border-radius: .5rem;
+    opacity: 85%;
+}
+.result-to{
+    background-color: #FFD54F;
+    padding: .5rem;
+    border-radius: .5rem;
+    opacity: 85%;
+}
+
+.radio-choose-quantity{
+    border: 2px solid #42A5F5;
+    border-radius: 15px;
+    padding: .4rem;
+}
+
+.radio-label{
+    border: 2px solid transparent;
+    padding: .3rem;
+    border-radius: .5rem;
+    transition: .3s ease;
+}
+
+.radio-label:hover{
+    border: 2px solid #90CAF9;
+    background-color: rgba(144, 202, 249, 0.51);
+}
+
+.radio-input{
+}
+.radio-input:hover{
+    box-shadow: none;
+    border: none;
+    outline: none;
+}
+
+.form-select, .form-control{
+    border: 1px solid;
+}
+
+.input-group-text{
+    border: 1px solid;
+}
+
+
+
+
+/*-----------------------------*/
+
+
+
+
+
+/**/
+
+
+
